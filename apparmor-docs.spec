@@ -4,7 +4,7 @@
 Name: apparmor-docs
 Summary: AppArmor documentation and manpages
 Version: %ver
-Release: %mkrel 1.%rev.2
+Release: %mkrel 1.%rev.3
 License: GPL
 Group: System/Base
 Source0: apparmor-docs-%{ver}-%{rev}.tar.gz
