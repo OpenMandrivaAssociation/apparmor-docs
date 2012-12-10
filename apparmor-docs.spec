@@ -44,3 +44,29 @@ rm -rf %{buildroot}
 
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.1-1.237.3mdv2011.0
++ Revision: 616598
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 2.0.1-1.237.2mdv2010.0
++ Revision: 423989
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 2.0.1-1.237.1mdv2008.1
++ Revision: 135823
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import apparmor-docs
+
+
+* Wed Jun 13 2007 Andreas Hasenack <andreas@mandriva.com> 2.0.1-1.237.1mdv2008.0
++ Revision: 38925
+- removed conflicting manpages
+- updated url
+- Import apparmor-docs
+
