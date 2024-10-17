@@ -8,7 +8,7 @@ Release: %mkrel 1.%rev.3
 License: GPL
 Group: System/Base
 Source0: apparmor-docs-%{ver}-%{rev}.tar.gz
-URL: http://forge.novell.com/modules/xfmod/project/?apparmor
+URL: https://forge.novell.com/modules/xfmod/project/?apparmor
 BuildRoot: %{_tmppath}/%{name}-%{version}-root-%(id -u -n)
 BuildArch: noarch
 # pod2man, pod2html
